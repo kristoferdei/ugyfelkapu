@@ -8,6 +8,8 @@ class Munkatarsak extends  React.Component {
 
     render() {
         return(
+            <div>
+                <h1>Munkatársaink</h1>
             <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
@@ -25,6 +27,7 @@ class Munkatarsak extends  React.Component {
 
                 </tbody>
             </Table>
+            </div>
         );
     }
 }

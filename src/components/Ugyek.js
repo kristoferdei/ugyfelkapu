@@ -7,9 +7,12 @@ const ugyek = data.ugyek;
 class Ugyek extends  React.Component {
     render() {
         return (
+            <div>
+                <h1>Választható teendők</h1>
             <ListGroup>
                 {ugyek.map(s => (<ListGroup.Item>{s.leiras}</ListGroup.Item>))}
             </ListGroup>
+            </div>
         );
     }
 }
