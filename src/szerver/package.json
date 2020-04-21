@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Fake json server",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server -p 4000 --watch ugyfelkapu.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}

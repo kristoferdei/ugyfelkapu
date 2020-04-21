@@ -1,0 +1,69 @@
+{
+    "ugyek": [
+        {
+            "azon": 1,
+            "leiras": "Születési anyakönyvi kivonat",
+            "idotartam": 30,
+            "dokumentumok": [
+                1,
+                2
+            ]
+        },
+        {
+            "azon": 2,
+            "leiras": "Házasság",
+            "idotartam": 60,
+            "dokumentumok": [
+                1,
+                2,
+                4
+            ] 
+        },
+        {
+            "azon": 3,
+            "leiras": "Vezetői engedély megújítása",
+            "idotartam": 45,
+            "dokumentumok": [
+                3
+            ]
+        }
+    ],
+    "dokumentumok": [
+        {
+            "azon": 1,
+            "leírás": "Személyi igazolvány"
+        },
+        {
+            "azon": 2,
+            "leírás": "Lakcímkártya"
+        },
+        {
+            "azon": 3,
+            "leírás": "Vezetői engedély"
+        },
+        {
+            "azon": 4,
+            "leírás": "Adókártyta"
+        }
+    ],
+    "munkatarsak": [
+        {
+            "azon": 1,
+            "nev": "Edina",
+            "beosztas": "hivatalnok",
+            "leiras": 1
+        },
+        {
+            "azon": 2,
+            "nev": "Kristóf",
+            "beosztas": "hivatalnok",
+            "leiras": 2
+        },
+        {
+            "azon": 3,
+            "nev": "Lara",
+            "beosztas": "hivatalnok",
+            "leiras": 3
+        }
+    ]
+}
