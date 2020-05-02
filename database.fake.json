@@ -1,0 +1,61 @@
+{
+  "peoples": [
+    {
+      "id": 35093,
+      "name": "Jerald Bashirian",
+      "jobs": "igazgató"
+    },
+    {
+      "id": 62925,
+      "name": "Myrtie Will",
+      "jobs": "ügyintéző"
+    },
+    {
+      "id": 98001,
+      "name": "Shaun Walsh",
+      "jobs": "igazgató"
+    },
+    {
+      "id": 34425,
+      "name": "Miller Flatley",
+      "jobs": "igazgató"
+    },
+    {
+      "id": 27044,
+      "name": "Jeffery Dietrich",
+      "jobs": "ügyintéző"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "88036",
+      "cases": "Get Married",
+      "dates": "2-5-2020",
+      "times": "11:00"
+    },
+    {
+      "id": "21462",
+      "cases": "Get Married",
+      "dates": "1-5-2020",
+      "times": "14:00"
+    },
+    {
+      "id": "17069",
+      "cases": "Get Married",
+      "dates": "1-5-2020",
+      "times": "11:00"
+    },
+    {
+      "id": "83073",
+      "cases": "Get Married",
+      "dates": "1-5-2020",
+      "times": "12:00"
+    },
+    {
+      "id": "20055",
+      "cases": "Renew driving licence",
+      "dates": "1-5-2020",
+      "times": "13:00"
+    }
+  ]
+}

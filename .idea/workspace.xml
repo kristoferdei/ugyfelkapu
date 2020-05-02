@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95717049-c658-450f-a697-af3a31505930" name="Default Changelist" comment="ugyfelkapu - elkezdese">
-      <change afterPath="$PROJECT_DIR$/src/components/Munkatarsak.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Asztali gép/Haladó Webtechnológiák/git/Tamás/HorgaszApp-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,18 +54,16 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="npm.json:server">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\krist\WebstormProjects\ugyfelkapu\src\dispatchers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.fakeDatabase.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="json:server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/src/szerver/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="json:server" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
+    <configuration name="fakeDatabase.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/faker/fakeDatabase.js" working-dir="$PROJECT_DIR$/src/faker">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -76,9 +76,26 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start-json-server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start-json-server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="Node.js.fakeDatabase.js" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.start-json-server" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.json:server" />
+        <item itemvalue="Node.js.fakeDatabase.js" />
+        <item itemvalue="npm.start-json-server" />
       </list>
     </recent_temporary>
   </component>
@@ -95,6 +112,17 @@
       <workItem from="1587473184090" duration="7319000" />
       <workItem from="1587480608957" duration="405000" />
       <workItem from="1587481195830" duration="127000" />
+      <workItem from="1587481813228" duration="77000" />
+      <workItem from="1587482680500" duration="5627000" />
+      <workItem from="1587488467336" duration="13000" />
+      <workItem from="1587489009806" duration="528000" />
+      <workItem from="1587491611692" duration="667000" />
+      <workItem from="1587736754110" duration="2638000" />
+      <workItem from="1587739514436" duration="1146000" />
+      <workItem from="1588328053520" duration="64000" />
+      <workItem from="1588329941526" duration="8350000" />
+      <workItem from="1588338722404" duration="16583000" />
+      <workItem from="1588404843101" duration="13892000" />
     </task>
     <task id="LOCAL-00001" summary="ugyfelkapu - elkezdese">
       <created>1587480690303</created>
@@ -118,10 +146,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1512" y="182" key="#ESLint/0.0.2560.1040@0.0.2560.1040" timestamp="1587475441074" />
-    <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587477126594">
+    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588407943611">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587477126594" />
+    <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588407943611" />
+    <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588415619470">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588415619470" />
     <state x="905" y="114" key="CommitChangelistDialog2" timestamp="1587481234612">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -130,26 +162,30 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="248" y="86" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587480888564" />
+    <state x="427" y="275" key="FileChooserDialogImpl" timestamp="1588406320555">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="427" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588406320555" />
     <state x="1492" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1587473501660">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1492" y="0" key="FileDocumentManager.FileCacheConflict/0.0.2560.1040@0.0.2560.1040" timestamp="1587473501660" />
-    <state width="1269" height="266" key="GridCell.Tab.0.bottom" timestamp="1587481013415">
+    <state width="1256" height="256" key="GridCell.Tab.0.bottom" timestamp="1588417852949">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1269" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1587481013415" />
-    <state width="1269" height="266" key="GridCell.Tab.0.center" timestamp="1587481013415">
+    <state width="1256" height="256" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588417852949" />
+    <state width="1256" height="256" key="GridCell.Tab.0.center" timestamp="1588417852948">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1269" height="266" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1587481013415" />
-    <state width="1269" height="266" key="GridCell.Tab.0.left" timestamp="1587481013415">
+    <state width="1256" height="256" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588417852948" />
+    <state width="1256" height="256" key="GridCell.Tab.0.left" timestamp="1588417852948">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1269" height="266" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1587481013415" />
-    <state width="1269" height="266" key="GridCell.Tab.0.right" timestamp="1587481013415">
+    <state width="1256" height="256" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588417852948" />
+    <state width="1256" height="256" key="GridCell.Tab.0.right" timestamp="1588417852948">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1269" height="266" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1587481013415" />
+    <state width="1256" height="256" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588417852948" />
     <state x="1043" y="224" key="VCS.ChangeListViewerDialog" timestamp="1587481291978">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

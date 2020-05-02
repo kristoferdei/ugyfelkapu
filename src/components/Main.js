@@ -1,31 +1,22 @@
 import React from 'react'
-import { Button } from 'react-bootstrap';
-import data from "../szerver/ugyfelkapu";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
-const ugyek = data.ugyek;
+import Jumbotron from "react-bootstrap/Jumbotron";
 
 class Main extends  React.Component {
 
-    klikk = () => {
-        this.props.history.push('/Idopont');
-    };
-
     render() {
         return (
-                <Container>
-                    <div>
-                        <h1>Válasszon teendőt!</h1>
-                    </div>
-                    <Row>
-                        <Col>
-                            {ugyek.map(s => (<Button variant="secondary" size="lg" block>{s.leiras}</Button>))}
-                            <Button variant="primary" size="lg" block onClick={() => {this.klikk()}}>Tovább</Button>
-                        </Col>
-                    </Row>
-                </Container>
+            <div>
+                <Jumbotron>
+                    <h1>Üdvözöljük honlapunkon!</h1>
+                    <p>
+                        Intézze ügyeit egyszerűen! <br/>
+                        Új időpont felvételéhez válassza a Foglalás menüpontot! <br/>
+                        A különböző ügyek időbe telnek és bizonyos dokumentumokat igényelnek.
+                        Erről az Információ menüponton tájékozódhat!
+                    </p>
+                </Jumbotron>
+            </div>
+
         );
     }
 }
