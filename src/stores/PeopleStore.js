@@ -1,10 +1,10 @@
 import EventEmitter from 'events';
 import dispatcher from "../dispatchers/PeopleDispatcher";
+const axios = require('axios');
 
 class PeopleStore extends EventEmitter {
 
     _peoples = [];
-    _notQueriedData = [];
 
     emitChange(){
         this.emit('Change');
@@ -22,17 +22,16 @@ class PeopleStore extends EventEmitter {
 const store = new PeopleStore();
 
 dispatcher.register((action)=>{
-    if(action.payload.command === 'QUERY_ALL_PEOPLE') {
-        fetch("http://localhost:3004/peoples", {method: "GET"})
-            .then(response => response.json())
-            .then(response => store._peoples = response)
-            .then(() => {
-                console.log("Queried all people");
-                store._notQueriedData = JSON.parse(JSON.stringify(store._peoples));
-                let states = new Set();
-                store._peoples.map(people => states = states.add(people.state));
+    if(action.command.commandType === 'QUERY_ALL_PEOPLE') {
+        axios.get('http://localhost:3004/peoples')
+            .then((res) => {
+                store._peoples = res.data;
+                console.log("Peoples loaded");
+                store.emitChange();
             })
-            .then(() => store.emitChange())
+                .catch((err) => {
+                    console.log(err);
+                });
     }
 });
 

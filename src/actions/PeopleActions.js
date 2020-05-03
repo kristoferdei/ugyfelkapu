@@ -4,7 +4,7 @@ class PeopleActions {
 
     queryAllPeople() {
         dispatcher.handleViewAction({
-            command : 'QUERY_ALL_PEOPLE',
+            commandType : 'QUERY_ALL_PEOPLE',
         });
     }
 }

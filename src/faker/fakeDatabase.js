@@ -18,19 +18,15 @@ function randomPeople() {
 
 function randomAppointment() {
     let appointment = [];
-    let casess = ["Birth certificate","Get Married","Renew driving licence"];
+    let casess = ['Birth certificate', 'Get Married', 'Renew driving licence'];
     let timess =  ["9:00","10:00","11:00","12:00", "13:00", "14:00", "15:00", "16:00"];
 
     for(let i = 0; i < 5; i++) {
-        let cases = casess[Math.round(Math.random()*3)];
-        let times = timess[Math.round(Math.random()*6)];
-        let dates = faker.date.recent();
-        let formattedDate = dates.getDate() + "-" + (dates.getMonth() + 1) + "-" + dates.getFullYear()
         appointment.push({
             id: `${faker.random.number()}`,
-            cases: cases,
-            dates: `${formattedDate}`,
-            times: times,
+            cases: `${faker.random.arrayElement(casess)}`,
+            dates: faker.date.recent(),
+            times: `${faker.random.arrayElement(timess)}`,
         })
     }
     return appointment

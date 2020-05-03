@@ -2,10 +2,10 @@ import {Dispatcher} from 'flux'
 
 class PeopleDispatcher extends Dispatcher {
 
-    handleViewAction(action) {
+    handleViewAction(command) {
         this.dispatch({
             source : 'VIEW_ACTION',
-            payload: action
+            command: command
             })
     }
 }

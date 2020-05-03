@@ -7,8 +7,8 @@ import Container from "react-bootstrap/Container";
 
 class Appointment extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props, context) {
+        super(props, context);
         this.state = {
             appointments: [],
         };
