@@ -10,8 +10,8 @@ class Header  extends  React.Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link tag={Link} href="/proba2">Foglalás</Nav.Link>
-                        <Nav.Link tag={Link} href="/proba">Időpontok</Nav.Link>
+                        <Nav.Link tag={Link} href="/foglal">Foglalás</Nav.Link>
+                        <Nav.Link tag={Link} href="/idopont">Időpontok</Nav.Link>
                         <Nav.Link tag={Link} href="/inf">Információ</Nav.Link>
                         <Nav.Link tag={Link} href="/munkatars">Munkatársak</Nav.Link>
                     </Nav>

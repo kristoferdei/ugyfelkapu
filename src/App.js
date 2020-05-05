@@ -5,8 +5,8 @@ import Header from './components/Header';
 import Main from "./components/Main";
 import People from "./components/People";
 import Cards from "./components/Cards";
-import TestList from "./components/Testes/TestList";
-import TestForm from "./components/Testes/TestForm";
+import AppointmentList from "./components/Appointments/AppointmentList";
+import AppointmentForm from "./components/Appointments/AppointmentForm";
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
@@ -20,8 +20,8 @@ function App() {
             <Switch>
                 <Route path="/munkatars" render={ (props) => <People {...props} />}/>
                 <Route path="/inf" render={ (props) => <Cards {...props} />}/>
-                <Route path="/proba" exact component={TestList}/>
-                <Route path="/proba2" exact component={TestForm}/>
+                <Route path="/idopont" exact component={AppointmentList}/>
+                <Route path="/foglal" exact component={AppointmentForm}/>
                 <Route path="/" exact component={Main} />
         </Switch>
         </div>

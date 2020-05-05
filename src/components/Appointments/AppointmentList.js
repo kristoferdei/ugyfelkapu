@@ -1,31 +1,31 @@
 import React, {Component} from 'react';
-import TestStore from "../../stores/TestStore";
-import Test from "./Test/Test";
-import TestActions from "../../actions/TestActions";
+import AppointmentStore from "../../stores/AppointmentStore";
+import Appointment from "./Appointment/Appointment";
+import AppointmentActions from "../../actions/AppointmentActions";
 import {Container, Table} from "react-bootstrap";
 
-class TestList extends Component {
+class AppointmentList extends Component {
     constructor(props, context) {
         super(props, context);
-        TestActions.getTestes(this.props.Id);
+        AppointmentActions.getAppointments(this.props.Id);
         this.state = {
-            testes : []
+            appointments : []
         };
-        this.onChangeOfCatchList = this.onChangeOfCatchList.bind(this);
+        this.onChangeOfAppointList = this.onChangeOfAppointList.bind(this);
     }
 
-    onChangeOfCatchList() {
+    onChangeOfAppointList() {
         this.setState({
-            testes : TestStore._testes
+            appointments : AppointmentStore._appointments
         })
     }
 
     componentDidMount() {
-        TestStore.addChangeListener(this.onChangeOfCatchList);
+        AppointmentStore.addChangeListener(this.onChangeOfAppointList);
     }
 
     componentWillUnmount() {
-        TestStore.removeChangeListener(this.onChangeOfCatchList);
+        AppointmentStore.removeChangeListener(this.onChangeOfAppointList);
     }
 
     render() {
@@ -33,7 +33,7 @@ class TestList extends Component {
             <div>
                 <br/>
                 <div>
-                <h3>Foglalásai</h3>
+                <h3>Időpontok</h3>
                 </div>
                 <br/>
                 <Container>
@@ -49,10 +49,10 @@ class TestList extends Component {
                 </thead>
                 <tbody>
                 {
-                    this.state.testes.map((fishCatch)=>{
+                    this.state.appointments.map((appoints)=>{
                         return(
-                            <Test key={fishCatch.Id}
-                                       test = {fishCatch}
+                            <Appointment key={appoints.Id}
+                                       appointment = {appoints}
                             />
                         );
                     })
@@ -65,4 +65,4 @@ class TestList extends Component {
     }
 }
 
-export default TestList;
+export default AppointmentList;

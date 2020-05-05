@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import TestActions from "../../actions/TestActions";
+import AppointmentActions from "../../actions/AppointmentActions";
 import {Button, Container} from "react-bootstrap";
 
-class TestForm extends Component {
+class AppointmentForm extends Component {
 
     constructor(props, context) {
         super(props, context);
@@ -55,7 +55,7 @@ class TestForm extends Component {
                         <Button
                             variant="dark"
                             onClick={()=>{
-                                    TestActions.newTest(this.state)
+                                    AppointmentActions.newAppointment(this.state)
                             }}
                         >Hozzáad</Button>
                     </div>
@@ -65,4 +65,4 @@ class TestForm extends Component {
     }
 }
 
-export default TestForm;
+export default AppointmentForm;

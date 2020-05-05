@@ -20,12 +20,14 @@ function randomAppointment() {
     let appointment = [];
     let casess = ['Birth certificate', 'Get Married', 'Renew driving licence'];
     let timess =  ["9:00","10:00","11:00","12:00", "13:00", "14:00", "15:00", "16:00"];
+    let date = faker.date.recent();
+    let formatDate = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
 
     for(let i = 0; i < 5; i++) {
         appointment.push({
             id: `${faker.random.number()}`,
             cases: `${faker.random.arrayElement(casess)}`,
-            dates: faker.date.recent(),
+            dates: `${formatDate}`,
             times: `${faker.random.arrayElement(timess)}`,
         })
     }
