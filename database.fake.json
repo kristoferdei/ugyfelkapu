@@ -1,1 +1,68 @@
-{"peoples":[{"id":40316,"name":"Jeremy Schumm","jobs":"igazgató"},{"id":44530,"name":"Tremaine VonRueden","jobs":"ügyintéző"},{"id":65711,"name":"Everardo Hackett","jobs":"igazgató"},{"id":6420,"name":"Albina Harber","jobs":"igazgató"},{"id":93815,"name":"Clara Satterfield","jobs":"ügyintéző"}],"appointments":[{"id":"1486","cases":"Birth certificate","dates":"2020-5-4","times":"16:00"},{"id":"4227","cases":"Renew driving licence","dates":"2020-5-4","times":"16:00"},{"id":"82516","cases":"Birth certificate","dates":"2020-5-4","times":"12:00"},{"id":"21265","cases":"Renew driving licence","dates":"2020-5-4","times":"9:00"},{"id":"17320","cases":"Get Married","dates":"2020-5-4","times":"16:00"}]}
+{
+  "employees": [
+    {
+      "id": 78278,
+      "name": "Dalton Runolfsdottir",
+      "jobs": "igazgató"
+    },
+    {
+      "id": 35609,
+      "name": "Lauryn Runte",
+      "jobs": "ügyintéző"
+    },
+    {
+      "id": 2625,
+      "name": "Arnaldo Batz",
+      "jobs": "igazgató"
+    },
+    {
+      "id": 89441,
+      "name": "Randal Herman",
+      "jobs": "igazgató"
+    },
+    {
+      "id": 54440,
+      "name": "Lia Johns",
+      "jobs": "igazgató"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "96176",
+      "cases": "Renew driving licence",
+      "dates": "2020-5-4",
+      "times": "12:00"
+    },
+    {
+      "id": "73353",
+      "cases": "Get Married",
+      "dates": "2020-5-4",
+      "times": "9:00"
+    },
+    {
+      "id": "35132",
+      "cases": "Get Married",
+      "dates": "2020-5-4",
+      "times": "13:00"
+    },
+    {
+      "id": "77815",
+      "cases": "Get Married",
+      "dates": "2020-5-4",
+      "times": "12:00"
+    },
+    {
+      "id": "76037",
+      "cases": "Renew driving licence",
+      "dates": "2020-5-4",
+      "times": "9:00"
+    },
+    {
+      "id": 997,
+      "cases": "Get Married",
+      "dates": "2020-05-05",
+      "times": "13:00",
+      "timestamp": "2020-05-05T10:29:20.698Z"
+    }
+  ]
+}

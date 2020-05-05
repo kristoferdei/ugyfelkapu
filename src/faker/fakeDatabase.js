@@ -1,7 +1,7 @@
 const faker = require('faker');
 const fs = require('fs');
 
-function randomPeople() {
+function randomEmployee() {
     let people = [];
     let jobss = ["ügyintéző","igazgató","tanuló"];
 
@@ -36,6 +36,6 @@ function randomAppointment() {
 
 fs.writeFile(
     '../../database.fake.json',
-    JSON.stringify({peoples: randomPeople(), appointments: randomAppointment()}),
+    JSON.stringify({employees: randomEmployee(), appointments: randomAppointment()}),
     (err)=>{console.log(err)}
 );
