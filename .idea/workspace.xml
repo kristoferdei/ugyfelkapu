@@ -62,7 +62,7 @@
       <recent name="C:\Users\krist\WebstormProjects\ugyfelkapu\src\components\Testes" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.fakeDatabase.js">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -97,8 +97,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.fakeDatabase.js" />
         <item itemvalue="npm.start-json-server" />
+        <item itemvalue="Node.js.fakeDatabase.js" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +129,7 @@
       <workItem from="1588500412246" duration="5263000" />
       <workItem from="1588606849752" duration="4559000" />
       <workItem from="1588665160800" duration="330000" />
-      <workItem from="1588665766213" duration="8880000" />
+      <workItem from="1588665766213" duration="10500000" />
     </task>
     <task id="LOCAL-00001" summary="ugyfelkapu - elkezdese">
       <created>1587480690303</created>
@@ -181,22 +181,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1492" y="0" key="FileDocumentManager.FileCacheConflict/0.0.2560.1040@0.0.2560.1040" timestamp="1587473501660" />
-    <state width="1256" height="255" key="GridCell.Tab.0.bottom" timestamp="1588673290576">
+    <state width="1256" height="255" key="GridCell.Tab.0.bottom" timestamp="1588675452541">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1256" height="255" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588673290576" />
-    <state width="1256" height="255" key="GridCell.Tab.0.center" timestamp="1588673290576">
+    <state width="1256" height="255" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588675452541" />
+    <state width="1256" height="255" key="GridCell.Tab.0.center" timestamp="1588675452541">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1256" height="255" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588673290576" />
-    <state width="1256" height="255" key="GridCell.Tab.0.left" timestamp="1588673290576">
+    <state width="1256" height="255" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588675452541" />
+    <state width="1256" height="255" key="GridCell.Tab.0.left" timestamp="1588675452541">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1256" height="255" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588673290576" />
-    <state width="1256" height="255" key="GridCell.Tab.0.right" timestamp="1588673290576">
+    <state width="1256" height="255" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588675452541" />
+    <state width="1256" height="255" key="GridCell.Tab.0.right" timestamp="1588675452541">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1256" height="255" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588673290576" />
+    <state width="1256" height="255" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588675452541" />
     <state x="1043" y="224" key="VCS.ChangeListViewerDialog" timestamp="1587481291978">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

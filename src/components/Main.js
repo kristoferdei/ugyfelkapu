@@ -11,8 +11,11 @@ class Main extends  React.Component {
                     <p>
                         Intézze ügyeit egyszerűen! <br/>
                         Új időpont felvételéhez válassza a Foglalás menüpontot! <br/>
+                        Korábbi foglalásait megtalálja az Időpontok menüpont alatt. <br/>
                         A különböző ügyek időbe telnek és bizonyos dokumentumokat igényelnek.
-                        Erről az Információ menüponton tájékozódhat!
+                        Erről az Információ menüponton tájékozódhat! <br/>
+                        Alkalmazottainkról a Munkatársak menüpont alatt talál bővebb inforációkat. <br/>
+                        Köszönjük, hogy minket választott!
                     </p>
                 </Jumbotron>
             </div>

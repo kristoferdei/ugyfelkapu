@@ -21,6 +21,7 @@ class AppointmentForm extends Component {
                 <Container>
                     <div>
                         <h3>Foglaljon új intézendő ügyet!</h3>
+                        <br/>
                         <label>Válasszon teendőt!</label>
                     </div>
                   <select
@@ -31,6 +32,7 @@ class AppointmentForm extends Component {
                         {["Birth certificate","Get Married","Renew driving licence"].map(e => <option>{e}</option>)}
                     </select>
                     <div>
+                        <br/>
                         <label>Válasszon dátumot!</label>
                     </div>
                    <input
@@ -40,6 +42,7 @@ class AppointmentForm extends Component {
                             this.setState({dates : e.target.value});
                         }}/>
                     <div>
+                        <br/>
                         <label>Válasszon időpontot!</label>
                     </div>
                    <select
@@ -57,7 +60,7 @@ class AppointmentForm extends Component {
                             onClick={()=>{
                                     AppointmentActions.newAppointment(this.state)
                             }}
-                        >Hozzáad</Button>
+                        >Foglalás</Button>
                     </div>
                 </Container>
             </div>

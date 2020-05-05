@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import CardGroup from "react-bootstrap/CardGroup";
 
-class Cards extends React.Component {
+class Information extends React.Component {
 
     render() {
         return (
@@ -60,4 +60,4 @@ class Cards extends React.Component {
     }
 }
 
-export default Cards;
+export default Information;
