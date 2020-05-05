@@ -43,6 +43,8 @@ class EmployeeList extends Component {
                     <tr>
                         <th>Azonosító</th>
                         <th>Név</th>
+                        <th>Telefonszám</th>
+                        <th>E-mail</th>
                         <th>Beosztás</th>
                     </tr>
                     </thead>

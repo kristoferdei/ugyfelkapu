@@ -6,11 +6,13 @@ function randomEmployee() {
     let jobss = ["ügyintéző","igazgató","tanuló"];
 
     for (let i = 0; i < 5; i++) {
-        let jobs = jobss[Math.round(Math.random()*2)];
+
         people.push({
             id: faker.random.number(),
             name: `${faker.name.firstName()} ${faker.name.lastName()}`,
-            jobs: jobs
+            phone: faker.phone.phoneNumber(),
+            email : faker.internet.email(),
+            jobs: `${faker.random.arrayElement(jobss)}`,
         })
     }
     return people;
