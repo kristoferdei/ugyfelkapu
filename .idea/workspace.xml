@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Fishermans_log-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Web-Tech-Project-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -56,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\krist\WebstormProjects\ugyfelkapu\src\components\Testes" />
       <recent name="C:\Users\krist\WebstormProjects\ugyfelkapu\src\dispatchers" />
     </key>
   </component>
@@ -124,6 +125,9 @@
       <workItem from="1588338722404" duration="16583000" />
       <workItem from="1588404843101" duration="14187000" />
       <workItem from="1588500412246" duration="5263000" />
+      <workItem from="1588606849752" duration="4559000" />
+      <workItem from="1588665160800" duration="330000" />
+      <workItem from="1588665766213" duration="4142000" />
     </task>
     <task id="LOCAL-00001" summary="ugyfelkapu - elkezdese">
       <created>1587480690303</created>
@@ -151,10 +155,14 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1374" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588407943611" />
-    <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588415619470">
+    <state x="1689" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588607242702">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588415619470" />
+    <state x="1689" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1588607242702" />
+    <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588669760490">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1650" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588669760490" />
     <state x="905" y="114" key="CommitChangelistDialog2" timestamp="1587481234612">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -163,30 +171,30 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="248" y="86" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587480888564" />
-    <state x="427" y="275" key="FileChooserDialogImpl" timestamp="1588500898827">
+    <state x="427" y="275" key="FileChooserDialogImpl" timestamp="1588665778503">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="427" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588500898827" />
+    <state x="427" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588665778503" />
     <state x="1492" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1587473501660">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1492" y="0" key="FileDocumentManager.FileCacheConflict/0.0.2560.1040@0.0.2560.1040" timestamp="1587473501660" />
-    <state width="1246" height="255" key="GridCell.Tab.0.bottom" timestamp="1588505679811">
+    <state width="1256" height="255" key="GridCell.Tab.0.bottom" timestamp="1588669760597">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1246" height="255" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588505679811" />
-    <state width="1246" height="255" key="GridCell.Tab.0.center" timestamp="1588505679811">
+    <state width="1256" height="255" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588669760597" />
+    <state width="1256" height="255" key="GridCell.Tab.0.center" timestamp="1588669760597">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1246" height="255" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588505679811" />
-    <state width="1246" height="255" key="GridCell.Tab.0.left" timestamp="1588505679811">
+    <state width="1256" height="255" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588669760597" />
+    <state width="1256" height="255" key="GridCell.Tab.0.left" timestamp="1588669760597">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1246" height="255" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588505679811" />
-    <state width="1246" height="255" key="GridCell.Tab.0.right" timestamp="1588505679811">
+    <state width="1256" height="255" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588669760597" />
+    <state width="1256" height="255" key="GridCell.Tab.0.right" timestamp="1588669760597">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="1246" height="255" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588505679811" />
+    <state width="1256" height="255" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588669760597" />
     <state x="1043" y="224" key="VCS.ChangeListViewerDialog" timestamp="1587481291978">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
